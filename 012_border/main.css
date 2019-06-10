@@ -1,0 +1,25 @@
+div {
+  width : 100px;
+  height : 100px;
+  border : 1px solid red;
+}
+
+img{
+  border: 10px groove orange;
+
+}
+
+.dog{
+  border: 10px groove blue;
+}
+
+.twodog{
+  border: 10px groove red;
+}
+
+.threedog{
+  border: 10px groove green;
+}
+.fourdog{
+  border: 10px groove black;
+}
