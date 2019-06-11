@@ -1,18 +1,16 @@
-div { 
-  width : 100px;
+div {
+   width : 100px;
   height : 100px;
   border : 4px solid red;
-  border-radius: 100%;
-  margin-bottom: 34px;
-  background-image: url("../image/puppy.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  border-radius: 10px;
+  display: inline-block;
+  padding: 150px;
 }
 
 img{
   border: 40px groove orange;
-
+  padding: 50px;
+  margin: 100px;
 }
 
 .dog{
