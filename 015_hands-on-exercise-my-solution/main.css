@@ -1,0 +1,23 @@
+.index {
+  width: 300px;
+  height: 350px;
+  /* background-color: blue; */
+  border-radius: 20%;
+  border-style: groove;
+  border-width: 20px;
+  border-color: orange;
+  background-image: url("../image/puppy.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.page2, .page3{
+  width:400px;
+  height:200px;
+  border:40px dashed red;
+  margin: 20px auto;
+
+}
+
+.page3{
+  box-sizing: border-box;
+}
