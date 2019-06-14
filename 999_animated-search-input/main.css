@@ -1,0 +1,36 @@
+body{
+  background-color: dodgerblue;
+
+}
+
+input{
+  display: block;
+  margin: 100px auto;
+  width:30%;
+  height: 40px;
+  background: red;
+  border:solid 2px black;
+  outline:none;
+  border-bottom: 3px solid white;
+
+/* text color */
+  color:black;
+
+  /* The blinker color */
+  caret-color: white;
+  text-align: center;
+  font: 17px cursive;
+
+  /* animation speed */
+  transition: width 0.3s;
+}
+
+input::placeholder{
+  /* Place holder color */
+  color: rgba(255,255,255,0.5);
+}
+
+input:focus{
+  /* animation increase width */
+  width: 50%;
+}

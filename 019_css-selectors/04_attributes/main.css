@@ -1,0 +1,32 @@
+#promote{
+    color:red;
+}
+
+[contenteditable]{
+    color:red;
+    border:1px dashed black;
+}
+
+[src]{
+    border:10px groove orange;
+}
+
+[href]{
+    border:2px dashed green;
+}
+body{
+    font-size:36px;
+    text-align:center;
+}
+
+[target=_blank]{
+    color:green;
+}
+img{
+    width:200px;
+    height: 200px;
+}
+
+ul{
+    text-align:left;
+}

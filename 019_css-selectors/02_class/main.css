@@ -1,0 +1,37 @@
+.emphasize{
+    color:red;
+}
+
+img{
+    width:200px;
+    height: 200px;
+}
+
+body{
+  background-color: dodgerblue;
+
+}
+
+input{
+  display: block;
+  margin: 100px auto;
+  width:20%;
+  height: 40px;
+  background: transparent;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid white;
+  color:white;
+  caret-color: white;
+  text-align: center;
+  font: bold 17px cursive;
+  transition: width 0.5s;
+}
+
+input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+
+input:focus{
+  width: 30%;
+}

@@ -1,0 +1,66 @@
+html{
+
+
+}
+
+html,body,form,label,input{
+    padding:10px;
+    margin:10px;
+    box-sizing: border-box;
+    align-items: left;
+}
+
+body{
+    diplay:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+
+
+}
+
+container{
+    width: 80%;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    border:1px solid darkgray;
+    padding:20px;
+    border-radius: 0px;
+
+}
+
+label{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    alignment: left;
+    font-size:1rem;
+    margin-top:4px;
+    border:1px solid darkgray;
+}
+
+[type=submit]{
+    margin-top: 10px;
+    border:1px solid darkgray;
+
+}
+
+/*Order matters*/
+/*Link Visited Hover Active*/
+[type=submit]:hover{
+    background-color:#00FF00;
+}
+
+[type=submit]:active{
+    background-color: fuchsia;
+}
+
+input:required{
+    border:1px solid red;
+    background-color:rgba(255,182,193,0.13);
+}
