@@ -1,0 +1,35 @@
+body{
+    font-size:36px;
+}
+
+li:first-child{
+    color:red;
+}
+
+ul:first-child{
+    background-color:yellow;
+}
+
+li:last-child{
+    color:orange;
+}
+
+li:nth-child(even){
+    background-color:gray;
+}
+
+li:nth-child(4){
+    background-color:purple;
+}
+
+li:nth-last-child(4){
+    background-color:green;
+}
+
+li:nth-child(3n+2){
+    background-color:red;
+}
+
+article:only-child{
+    color:red;
+}

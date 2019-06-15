@@ -1,0 +1,25 @@
+body{
+    font-size:36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+div p{
+    color:red;
+    /*All p tags beneath a div*/
+}
+
+div > p{
+    background-color:green;
+    /*All p tags immediately beneath a div*/
+}
+
+div ~ p{
+    color:orange;
+    /*All p tags that are a sibling following a div */
+}
+
+div + p{
+    background-color:pink;
+    /*All p tags that are an immediate sibling following a div*/
+}
