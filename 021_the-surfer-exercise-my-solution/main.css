@@ -1,0 +1,39 @@
+html{
+    background-color:dodgerblue;
+}
+
+h1{
+    font-size:36px;
+    margin:30px;
+
+}
+
+p{
+    font-size:20px;
+    padding-top: 10px;
+    margin:30px;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    border-radius: 50%;
+    border:10px groove orange;
+    width:300px;
+}
+
+body{
+    margin:0 auto;
+    border:5px solid black;
+    width:80%;
+    height:100%;
+    background-color:mediumseagreen;
+    font-family: Helvetica;
+}
+
+#header01{
+    color:blue;
+}
+#header-02{
+    color:red;
+}
