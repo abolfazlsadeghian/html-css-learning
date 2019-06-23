@@ -1,0 +1,13 @@
+p{
+  font-family:sans-serif;
+  font-size:4rem;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 2rem;
+}
+
+h1{
+  font-weight: bolder;
+}
