@@ -1,0 +1,27 @@
+/* * {
+  border: 2px dashed hotpink;
+} */
+html {
+
+font-size: 2rem;
+}
+ul{
+  list-style:none;
+}
+
+li{
+  border-radius: 50px;
+  display: inline-block;
+}
+
+li:hover{
+  background-color:#00FF00;
+}
+
+a{
+  padding:10px;
+  border:2px solid black;
+  border-radius:50px;
+  display: inline-block;
+  text-decoration: none;
+}
