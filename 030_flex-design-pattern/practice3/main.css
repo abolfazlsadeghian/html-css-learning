@@ -1,0 +1,19 @@
+body {
+  display:flex;
+  flex-flow: row wrap;
+
+  width:100%;
+  padding:0;
+  margin:0 auto;
+}
+
+
+.c1 , .c2, .c3, .c4 {
+  width:100%;
+  min-height: 150px;
+}
+
+.c4{
+  border:2px solid red;
+  box-sizing: border-box;
+}
