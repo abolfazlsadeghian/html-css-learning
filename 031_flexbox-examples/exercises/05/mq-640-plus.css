@@ -1,0 +1,22 @@
+div{
+  display:flex;
+  flex-flow: row wrap;
+
+}
+
+nav{
+  width:20%;
+  order:1;
+}
+
+aside{
+  width:20%;
+  order:3;
+
+}
+
+article {
+  order:2;
+  width:60%
+
+}

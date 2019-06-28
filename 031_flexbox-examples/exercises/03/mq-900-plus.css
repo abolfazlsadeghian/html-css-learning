@@ -1,0 +1,21 @@
+ul{
+  flex-flow: column nowrap;
+  display: block;
+  height: 100%;
+
+}
+body{
+  max-width: 1000px;
+  margin:0 auto;
+}
+li{
+  padding: 10px;
+}
+
+nav {
+  width:30%;
+}
+
+main {
+  width: 70%;
+}

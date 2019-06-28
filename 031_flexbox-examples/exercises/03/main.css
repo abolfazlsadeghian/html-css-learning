@@ -1,0 +1,43 @@
+html, body, nav, ul, main,section {
+  border:0;
+  margin:0;
+  padding:0;
+  box-sizing: border-box
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+  margin:10px;
+}
+nav{
+  width: 100%;
+}
+ul {
+  padding: 30px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  border:5px solid red;
+  width: 100%;
+  justify-content: center;
+
+}
+
+a{
+  text-decoration: none;
+  padding:1em;
+}
+
+a:hover{
+  background-color:red;
+}
+
+main{
+  width:100%;
+  border:5px solid red;
+  padding:10px;
+}
+section{
+  margin-bottom: 20px;
+}
