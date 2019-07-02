@@ -1,0 +1,40 @@
+*{
+  border:0;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  width:100%;
+
+}
+
+main {
+  display:flex;
+  flex-flow: column nowrap;
+  position:absolute;
+  height: 100%;
+  width:100%;
+  align-items: center;
+  justify-content:center;
+  position:relative;
+
+}
+
+div {
+
+  justify-content: center;
+  width:200px;
+  height: 200px;
+  background-color:orange;
+  border:2px solid red;
+
+
+}
+
+.different {
+  position:relative;
+  left:50px;
+  top:50px;
+}
