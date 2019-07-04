@@ -1,0 +1,26 @@
+body{
+  max-width: 700px;
+  margin:30px auto;
+
+}
+
+nav, main {
+  border:1px solid black;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+nav {
+  float:left;
+  width:25%;
+}
+
+main {
+  float:right;
+  width:75%;
+  padding:20px;
+}
+
+article{
+  clear:both;
+}
