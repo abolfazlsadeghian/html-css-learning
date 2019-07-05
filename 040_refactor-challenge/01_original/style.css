@@ -1,0 +1,80 @@
+body {
+    /* background: url(img/fog.jpg) no-repeat top center fixed; */
+    background-image: url("img/fog.jpg");
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size:1.6rem;
+}
+
+h1 {
+    color: #094562;
+    text-align: center;
+    font-size: 4.8rem;
+
+}
+
+.header {
+    color: #094562;
+    text-align: center;  
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+}
+
+ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li {
+    margin:2rem;
+    border:1px solid blue;
+    border-radius: 5px;
+    width:15vw;
+    height:2rem;
+    line-height: 40px;
+    text-align: center;
+}
+
+ol , ul{
+    list-style: none;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+li:hover{
+    color:red;
+    cursor:pointer;
+}
+
+section {
+    height: 25rem;
+    text-align: center;
+    margin:2rem;
+}
+
+#s1 {
+    background-color:rgba(54,255,153,0.25);
+}    
+
+#s2 {
+    background-color: rgba(78,110,255,0.25);
+   
+}
+#s3 {
+    background-color: rgba(270,74,69,0.25);
+   
+}
+
+#s4 {
+    background-color: rgba(60,81,44,0.25);
+   
+}
+
