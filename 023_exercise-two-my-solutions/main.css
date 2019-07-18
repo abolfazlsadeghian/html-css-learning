@@ -1,40 +1,40 @@
-/*li:nth-child(3){*/
-     /*color:red;*/
- /*}*/
+li:nth-child(3){
+     color:red;
+ }
 
-/*li:nth-child(1n+3){*/
-    /*color:red;*/
+li:nth-child(1n+3){
+    color:red;
 
-/*}*/
+}
 
-/*[target]{*/
-    /*border:5px solid black;*/
+[target]{
+    border:5px solid black;
 
-/*}*/
+}
 
-/*a:link{*/
-    /*color:green;*/
-/*}*/
+a:link{
+    color:green;
+}
 
-/*a:visited{*/
-    /*color:blue*/
-/*}*/
+a:visited{
+    color:blue
+}
 
-/*a:hover{*/
-    /*color:purple;*/
-/*}*/
+a:hover{
+    color:purple;
+}
 
-/*a:active{*/
-    /*color:red;*/
-/*}*/
-/*p:first-letter{*/
-    /*font-size: 36px;*/
-    /*font-family: cursive;*/
-/*}*/
+a:active{
+    color:red;
+}
+p:first-letter{
+    font-size: 36px;
+    font-family: cursive;
+}
 
-/*p:first-line{*/
-    /*color:red;*/
-/*}*/
+p:first-line{
+    color:red;
+}
 
 div p {
     color:greenyellow;
