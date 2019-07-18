@@ -1,0 +1,25 @@
+*{
+  box-sizing:border-box;
+}
+
+.thebigone{
+  position:absolute;
+  background-color:orange;
+  height:80vh;
+  width: 80vh;
+  left:200px;
+  top:100px;
+  padding:10px;
+}
+
+.thesmallone{
+  position:relative;
+  padding:10px;
+  height:50%;
+  width:50%;
+  color:white;
+
+  left:40%;
+  top:40%;
+  background-color:purple;
+}

@@ -1,0 +1,19 @@
+body{
+  background-image:url("../../image/html.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin:content-box ;
+  background-size:40%;
+  background-attachment: fixed;
+}
+
+div{
+  background-image: url("../../image/puppy.jpg");
+  border:10px groove red;
+  border-radius: 40%;
+  background-repeat: no-repeat;
+  background-size:200px 150px;
+  height: 400px;
+  width:460px;
+
+}
